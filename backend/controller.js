@@ -1,4 +1,3 @@
-const { response } = require("express");
 const User = require("./model");
 
 const getUsers = (req, res, next) => {
